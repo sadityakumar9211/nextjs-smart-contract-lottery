@@ -149,7 +149,7 @@ export default function LotteryEntrance() {
           </div>
         </div>
       ) : (
-        <h4>No Raffle Address Detected!</h4>
+        <h4 className="text-2xl font-semibold">No Raffle Address Detected!</h4>
       )}
     </div>
   )
